@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        /* .box{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            margin: 20px;
+        }
+             .count{
+                display: flex;
+                justify-content: content;
+                justify-content:space=around;
+                justify-content:space=between;
+                align-items:center;*/ 
+                 /* height:20px; 
+        
+      } */
+       .grid div{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            margin: 20px;
+       }
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 400px 400px 400px;
+            grid-template-areas: 'b9 b8 b7'
+                                     'b6 b5 b4'
+                                             'b3 b2 b1';
+            gap: 20px;;
+        }
+        .box1{
+            grid-area: b1;
+        }
+        .box2{
+            grid-area: b2;
+        }
+        .box3{
+            grid-area: b3;
+        }
+        .box4{
+            grid-area: b4;
+        }
+        .box5{
+            grid-area: b5;
+        }
+        .box6{
+            grid-area: b6;
+        }
+        .box7{
+            grid-area: b7;
+        }
+        .box8{
+            grid-area: b8;
+        }
+        .box9{
+            grid-area: b9;
+        }
+        
+            
+    </style>
+    </head>
+    <body></body>
+        <!-- <div class="count">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div> -->
+        <div class ="grid">
+            <div class="box1">Fahad1</div>
+            <div class="box2">Fahad2</div>
+            <div class="box3">Fahad3</div>
+            <div class="box4">Fahad4</div>
+            <div class="box5">Fahad5</div>
+            <div class="box6">Fahad6</div>
+            <div class="box7">Fahad7</div>
+            <div class="box8">Fahad8</div>
+            <div class="box9">Fahad9</div> 
+        </div>
+ 
+    </div>
+    </body>
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
